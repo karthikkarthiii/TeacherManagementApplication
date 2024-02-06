@@ -24,7 +24,7 @@ public class FilterByClasses implements Comparator<FilterByClasses> {
 	}
 	public void solve() throws IOException {
 		ArrayList<FilterByClasses> arr=new ArrayList<>();
-		File f=new File("C:\\Users\\sakkiah\\eclipse-workspace\\sample\\src\\consolebasedapplication\\details.txt");
+		File f=new File("details.txt");
 		List<String> lines = Files.readAllLines(f.toPath());
         for (int i = 0; i < lines.size(); i++) {
         String ss[]=lines.get(i).split(",");
